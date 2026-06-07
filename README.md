@@ -123,7 +123,7 @@ Para una infraestructura real:
 
 - **El proveedor (AWS, Azure, etc.)** se encarga de la seguridad **de** la nube:
   hardware, hipervisor, red física, disponibilidad.
-- **Nosotros (el equipo)** somos responsables de la seguridad **en** la nube:
+- **El desarrollador** es responsable de la seguridad **en** la nube:
   - Llaves SSH para acceso a los servidores worker.
   - Cortafuegos (UFW / Security Groups) exponiendo solo los puertos
     necesarios (5000 para sockets, 5672 para RabbitMQ interno).
